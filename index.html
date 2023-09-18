@@ -11,35 +11,27 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script src="https://kit.fontawesome.com/4b92de7e76.js" crossorigin="anonymous"></script>
+
+    <!-- <style>
+      #menu {
+        display: none;
+      }
+    </style> -->
 </head>
 
 <body>
    <header>
-     <!-- <div class="max-w-5xl mx-auto bg-slate-300">hello</div> -->
-     <nav class="bg-[#18dcff] ">
+     
+    <nav class="bg-[#18dcff] ">
       <div class="p-4 border-b bg-slate-50">
           <div class="container mx-auto">
               <div class="flex items-center justify-center md:justify-between">
-                  <!-- <div class="hidden md:block">
-                      <div>
-                          <div class="flex items-center">
-                              <img class="w-8 h-8 mr-1" src="/static_files/svgs/cloud-moon-rain-solid.svg"
-                                  alt="cloud">
-                              <div class="text-lg font-medium">Bridgeport,CT</div>
-                          </div>
-                      </div>
-                      <div class="flex items-center">
-                          <img class="w-5 h-5" src="/static_files/svgs/square-facebook.svg" alt="facebook">
-                          <img class="w-5 h-5 mx-1" src="/static_files/svgs/square-twitter.svg" alt="twitter">
-                          <img class="w-4 h-4 mr-1" src="/static_files/svgs/thumbtack-solid.svg" alt="pin">
-                          <div class="text-lg text-slate-600">Subscribe</div>
-                      </div>
-                  </div> -->
+                  
                   <div class="text-center">
-                      <img src="./asset/images/logo.png" class="w-16" alt="">
+                      <a href="./index.html"><img src="./asset/images/logo.png" class="w-16" alt=""></a>
                       
                   </div>
-
+  
                   <div class="text-center">
                       <h1 class=" text-sm md:text-4xl font-extrabold">Hajee Mohammad Danesh Science and Technology University
                       </h1>
@@ -63,23 +55,25 @@
                   <div class="flex justify-between items-center p-1 px-2 cursor-pointer" id="menu-button">
                       
                       
-                      <img class="w-5 h-5 mr-2" src="/static_files/svgs/bars-black.svg" alt="menu">
-                      <div class="text-xl">Menu</div>
+                    <div class="text-xl">Menu  <i class="fa-solid fa-bars"></i></div>
+                    
                   </div>
               </div>
           </div>
           <div class="hidden md:block" id="menu">
               <ul class="justify-center md:text-md  font-medium md:flex md:flex-wrap lg:flex ">
-                  <li class="p-3 mx-2 text-black"><a href="#">Home</a></li>
+                  <li class="p-3 mx-2 text-black"><a href="./index.html">Home</a></li>
                   <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#aboutus">About Us</a></li>
+                  <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="./faculty.html">Faculty</a></li>
                   <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Events</a></li>
                   <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Addmission</a></li>
                   <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Accadamic</a></li>
-                  <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Reserce</a></li>
+                  <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="./research.html">Research</a></li>
+                  
                   <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Project</a></li>
                   <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Campus Life</a></li>
-                  <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Alumni</a></li>
-                  <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Notice</a></li>
+                  <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="./alumni.html">Alumni</a></li>
+                  <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="./notice.html">Notice</a></li>
               
                  
                   <li class="p-2 mx-2 text-slate-600 hover:text-black "><a href="#" class="md:hidden lg:hidden">LogIn</a></li>
@@ -87,6 +81,7 @@
           </div>
       </div>
   </nav>
+    
 
   <div class="flex items-center border-y">
     <div class="px-8 py-1 text-md text-white bg-red-600">News</div>
@@ -680,68 +675,18 @@
 
 
 
-       <footer class="footer p-10 bg-neutral text-neutral-content">
-        <nav>
-          <header class="footer-title">Services</header> 
-          <a class="link link-hover">Departments A - Z</a>
-          <a class="link link-hover">Institutes & Centers</a>
-          <a class="link link-hover">Society & Community
-            Moodle</a>
-          <a class="link link-hover">International Program Office</a>
-        </nav> 
-        <nav>
-          <header class="footer-title">MOre Services</header> 
-          <a class="link link-hover"> Online admission</a>
-          <a class="link link-hover">Library</a>
-          <a class="link link-hover">Student Safety</a>
-         
-        </nav> 
-        <nav>
-          <header class="footer-title">Student Provided</header> 
-          <a class="link link-hover">Cafeterias</a>
-          <a class="link link-hover">Transport Service</a>
-          <a class="link link-hover">Sports</a>
-          <a class="link link-hover">Sustainable Development</a>
-        </nav>
-        <nav>
-          <header class="footer-title">Information</header> 
-          <a class="link link-hover">Vice-Chancellor Office</a>
-          <a class="link link-hover">Office of the Registrar</a>
-          <a class="link link-hover">Visiting Faculty</a>
-          <a class="link link-hover">International Advisors</a>
-        </nav>
-        <nav>
-          <header class="footer-title">Legal</header> 
-          <button class="btn btn-info">Student Login</button>
-          <button class="btn btn-info">Career</button>
-        </nav>
-      </footer>
+      <!-- main footer -->
       
-
+      <div id="mainfooter-placeholder"></div>
 
 
 
 
    </main>
 
-
-   <footer class="footer footer-center p-10 bg-info text-primary-content">
-    <aside>
-      <img src="./asset/images/logo.png" class="w-24" alt="">
-      <p class="text-2xl font-bold">
-        Hajee Mohammad Danesh Science and Technology University <br/>Providing reliable tech since 1992
-      </p> 
-      <p>Copyright © 2023 - All right reserved</p>
-    </aside> 
-    <nav>
-      <div class="grid grid-flow-col gap-4">
-        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a> 
-        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a> 
-        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
-      </div>
-    </nav>
-  </footer>
-  
+<!-- footer placement -->
+<div id="footer-placeholder"></div>
+   
   
 
 
@@ -756,6 +701,18 @@
 
      
    <script src="./asset/js/main.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $("#navbar-placeholder").load("./asset/shared/navabar.html");
+    $("#mainfooter-placeholder").load("./asset/shared/mainfooter.html");
+    $("#footer-placeholder").load("./asset/shared/footer.html");
+  });
+
+
+   
+</script>
+
     <script>
         const menubtn = document.getElementById('menu-button');
         const menu = document.getElementById('menu');
